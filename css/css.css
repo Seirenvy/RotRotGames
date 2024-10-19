@@ -1,0 +1,505 @@
+.navbar {
+    width: 100%;
+    height: 70pt;
+    float: left;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    
+
+}
+
+.container {
+    width: 80%;
+    height: 40pt;
+    margin: auto;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    height: 60pt;
+    margin: -17pt;
+    margin-right: 10pt;
+}
+.navlogo {
+    float: left;
+    width: 40%;
+    height: 20pt;
+}
+
+.navitem {
+    float: right;
+    width: 50%;
+    height: 20pt;
+}
+
+.navitem a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin-top: 2%;
+}
+
+.navlogo li{
+    float: left;
+    list-style-type:none;
+    margin: -1% 3% 0 1%;
+}
+
+.navlogo a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    float: left;
+    width: 100%;
+    height: 450pt;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    isolation: isolate;
+}
+
+main::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+.container2 {
+    width: 80%;
+    height: 350pt;
+    margin: auto;
+    padding-top: 30pt;
+}
+
+.article {
+    width: 35%;
+    height: 250pt;
+    float: left;
+    padding: 1%;
+    margin: 1% 1% 0% 1%;
+}
+
+
+.article img {
+    width: 90%;
+    height: 100pt;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.p2 {
+    width: 90%;
+    height: 40pt;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: -0.5% 2% 0 0;
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: cursive;
+}
+
+video {
+    padding-left: 14%;
+}
+
+.Check {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 5%;
+    margin-left: 32%;
+    margin-right: 35%;
+    border-radius: 20px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-size: 10pt;
+}
+
+section {
+    width: 100%;
+    height: 1500pt;
+    background-color: rgb(20, 20, 20);
+    margin: auto;
+    float: left;
+}
+
+.container3 {
+    width: 90%;
+    height: 1000pt;
+    margin: auto;
+}
+
+.container4 {
+    float: left;
+    width: 100%;
+    height: 233pt;
+    margin-bottom: 20pt;
+}
+
+.container5 {
+    float: left;
+    width: 100%;
+}
+
+.container6 {
+    float: left;
+    width: 100%;
+}
+
+.ontainer7 {
+    float: left;
+    width: 100%;
+}
+
+.container8 {
+    float: left;
+    width: 100%;
+}
+
+.container3 h1 {
+    font-size: 40pt;
+    padding-top: 50pt;
+    padding-bottom: 1pt;
+}
+
+.center {
+    width: 50%;
+    float: left;
+    margin-bottom: 40pt;
+}
+
+.module {
+    float: left;
+    padding-top: 10%;
+    margin-top: -3%;
+    padding-left: 10pt;
+}
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+.LogBox {
+    width: 30%;
+    height: 240pt;
+    background-color:rgb(25, 25, 25);
+    margin: auto;
+    margin-top: 50pt;
+    border-radius: 20pt;
+}
+
+.LogBox1 {
+    width: 80%;
+    height: 100pt;
+    margin: auto;
+    padding-top: 10pt;
+}
+
+.LoginButton {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 17pt; 
+}
+
+.containerlol {
+    width: 60%;
+    height: 250pt;
+    margin: auto;
+    text-align: center;
+    margin-top:14%;
+}
+
+.containerlol h1{
+    font-size: 40pt;
+}
+
+.sectionlol {
+    width: 100%;
+    height: 350pt;
+    background-color: rgb(255, 255, 255);
+}
+
+.containerchamp {
+    width: 50%;
+    height: 250pt;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+    color: black;
+    padding-top: 5%;
+}
+
+.containerchamp {
+    font-size: 20pt;
+}
+
+.containerexpchamp {
+    width: 50%;
+    height: 300pt;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 3%;
+}
+
+.containerexpchamp img {
+    float: right;
+    padding-right: 20%;
+}
+
+
+.sectionspecial {
+    margin-top: 5%;
+    width: 100%;
+    height: 500pt;
+    background-color: rgb(20, 20, 20);
+    float: left;
+}
+
+.containerspecial {
+    width: 80%;
+    height: 800pt;
+
+    margin: auto;
+}
+
+.specialcard1 {
+    width: 100%;
+    height: 235pt;
+
+    margin-bottom: 3%;
+}
+
+.specialcard1 img {
+    float: left;
+    margin-right: 2%;
+}
+
+.specialcard1 h1 {
+    margin-left: 3%;
+    float: left;
+}
+
+.specialcard1 iframe {
+    float: left;
+    margin-right: 2%;
+}
+
+.kdaspecial {
+    width: 95%;
+    height: 500pt;
+   
+    margin: auto;
+}
+
+.vid1 {
+    float: left;
+}
+
+.vid2 {
+    float: right;
+}
+
+.who-we-are {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #EDEDED;
+    padding: 40px;
+    height: 300pt;
+}
+
+.who-we-are img {
+    width: 300px;
+    height: auto;
+}
+
+.who-we-are .content {
+    max-width: 500px;
+}
+
+.who-we-are h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.who-we-are p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.footer div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer h2, h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.newsletter form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #2E7B8E;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.address, .follow, .contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.follow a {
+    display: block;
+    margin: 5px 0;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover, .follow a:hover {
+    text-decoration: underline;
+}
+
+.news-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #F4F4F4;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+a:hover {
+    transform: scale(1.03);
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+
+
+.tag {
+    background-color: #E34F42;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.card-content  {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+}
